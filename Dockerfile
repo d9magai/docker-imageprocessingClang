@@ -1,4 +1,4 @@
-FROM d9magai/docker-imagemagick
+FROM d9magai/imagemagick
 MAINTAINER d9magai
 
 RUN rpm -Uvh http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm && \
