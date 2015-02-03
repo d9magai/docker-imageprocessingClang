@@ -4,7 +4,6 @@ MAINTAINER d9magai
 RUN yum update -y && yum install -y epel-release && yum clean all
 RUN yum install -y \
     httpd-devel \
-    mod_ssl \
     CUnit-devel \
     json-c-devel \
     libcurl-devel \
