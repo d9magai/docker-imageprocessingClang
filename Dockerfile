@@ -10,6 +10,5 @@ RUN yum install -y \
     openssl-devel \
     glib2-devel \
     gdb \
-    which \
 &&  yum clean all
 
